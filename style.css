@@ -131,15 +131,43 @@ footer .top {
     border-bottom: 1px solid #dfe1e5;
 }
 
-footer .bottom {
-    height: 50%;
-}
-
 .country {
     position: relative;
     margin-left: 30px;
     font-size: 16px;
     line-height: 40px;
+}
+
+footer .bottom {
+    height: 50%;
+    line-height: 240%;
+    position: relative;
+    display: flex;
+}
+
+#left {
+    display: flex;
+    margin-left: 30px;
+}
+
+#left a p{
+    margin-right: 10px;
+}
+
+#right {
+    display: flex;
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+}
+
+#right a p{
+    margin-left: 10px;
+}
+
+.bottom p{
+    color: #5f6368;
+    font-size: 14px;
 }
 
 footer a:link {
